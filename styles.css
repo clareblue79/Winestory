@@ -1,0 +1,40 @@
+TextWidget { /* place your glass here text formatting */
+  stroke: white;  font-family: 'Georgia', serif;
+  font-style: italic;
+  background: transparent;
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.iconText{
+  width: 100px;
+  font-size: 10px;
+}
+
+.addMessage{ /* styling added to memory message */
+  width: 400px;
+  font-style: none;
+}
+
+VideoWidget {
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+  background-color: white;
+
+  stroke-width: 2px;
+  stroke: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  wrap-mode: none;
+}
+
+.ImageW {
+  background-clip: padding-box;
+  background-repeat: no-repeat;
+  background-size: 25px auto;
+  background-position: center top;
+  padding: 15px;
+  padding-top: 20px;
+}
